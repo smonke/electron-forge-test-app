@@ -57,7 +57,18 @@
           }
         ]
       ]
-    }
+    },
+    "publishers": [
+      {
+        "name": "@electron-forge/publisher-github",
+        "config": {
+          "repository": {
+            "owner": "smonke",
+            "name": "electron-publish-example"
+          }
+        }
+      }
+    ]
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",
@@ -68,6 +79,7 @@
     "@electron-forge/maker-squirrel": "^6.0.0-beta.54",
     "@electron-forge/maker-zip": "^6.0.0-beta.54",
     "@electron-forge/plugin-webpack": "6.0.0-beta.54",
+    "@electron-forge/publisher-github": "^6.0.0-beta.54",
     "@marshallofsound/webpack-asset-relocator-loader": "^0.5.0",
     "babel-loader": "^8.2.2",
     "css-loader": "^4.2.1",
