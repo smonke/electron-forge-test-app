@@ -56,20 +56,20 @@
             }
           }
         ]
-      ]
-    },
-    "publishers": [
-      {
-        "name": "@electron-forge/publisher-github",
-        "config": {
-          "repository": {
-            "owner": "smonke",
-            "name": "electron-publish-example",
-            "draft": true
+      ],
+      "publishers": [
+        {
+          "name": "@electron-forge/publisher-github",
+          "config": {
+            "repository": {
+              "owner": "smonke",
+              "name": "electron-forge-test-app",
+              "draft": true
+            }
           }
         }
-      }
-    ]
+      ]
+    }
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",
